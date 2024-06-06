@@ -83,5 +83,5 @@ func main() {
 		c.JSON(http.StatusOK, people)
 	})
 
-	router.Run(":8080")
+	router.Run(":8888")
 }
